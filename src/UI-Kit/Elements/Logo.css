@@ -1,0 +1,6 @@
+.Logo {
+    font-family: var(--font-logo);
+    color: var(--text-header);
+    font-size: 2em;
+    margin-bottom: 0.15em;
+}

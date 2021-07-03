@@ -1,0 +1,15 @@
+.Half-Face {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: inherit;
+    width: auto;
+    height: 95%;
+    z-index: -1;
+}
+
+.Half-Face img {
+    width: auto;
+    height: 100%;
+    filter: grayscale(100%) brightness(80%) contrast(130%);
+}

@@ -1,0 +1,25 @@
+.Navbar {
+    background-color: var(--background-header);
+    padding: 0 var(--gap);
+    color: var(--text-header);
+    position: sticky;
+    height: 2.8em;
+    display: flex;
+    top: 0;
+    z-index: 100;
+}
+
+.Navbar a {
+    font-family: var(--font-header);
+    color: inherit;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.Navbar a:hover {
+    opacity: 0.8;
+}
+
+.Navbar a.active {
+    color: orange
+}
