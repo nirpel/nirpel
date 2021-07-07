@@ -1,0 +1,27 @@
+.HelloMessage {
+    align-self: center;
+    text-align: center;
+}
+
+.HelloMessage div {
+    color: var(--text-header);
+    font-family: var(--font-hello);
+}
+
+.name {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.hello {
+    font-size: 15vmax;
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 5vmax;
+}
+
+.pres {
+    font-size: 3vmax;
+}

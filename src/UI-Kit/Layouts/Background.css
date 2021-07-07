@@ -1,8 +1,9 @@
-.HelloBackground {
+.Background {
     background-color: var(--background-hello);
     position: relative;
     width: 100%;
-    height: calc(100% - var(--header-height));
+    height: auto;
+    min-height: calc(100% - var(--header-height));
     z-index: -2;
     display: flex;
     justify-content: center;

@@ -1,0 +1,11 @@
+.AboutContainer {
+    display: grid;
+    height: inherit;
+    grid-template-columns: minmax(300px, 4fr) minmax(150px, 0.2fr) minmax(300px, 4fr);
+}
+
+.AboutContainer > :nth-child(2) {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
