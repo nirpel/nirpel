@@ -1,0 +1,5 @@
+.Paragraph {
+    font-family: var(--font-hello);
+    color: var(--text-header);
+    font-size: 2vmax;
+}

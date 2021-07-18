@@ -1,11 +1,11 @@
-import { HalfFace, Background, HelloMessage } from 'UI-Kit';
+import { HalfFace, Section, HelloMessage } from 'UI-Kit';
 
 const Hello = () => {
     return (
-        <Background>
+        <Section>
             <HelloMessage />
             <HalfFace fileName='half-face.png' />
-        </Background>
+        </Section>
     );
 }
 

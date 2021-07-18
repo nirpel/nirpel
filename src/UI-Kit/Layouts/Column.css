@@ -1,0 +1,58 @@
+.Column {
+    float: left;
+    width: 33.33%;
+}
+
+@media only screen and (max-width: 768px) {
+    .Column {
+      width: 100%;
+    }
+}
+
+.Column[col="1"] {
+    width: 8.33%;
+}
+
+.Column[col="2"] {
+    width: 16.66%;
+}
+
+.Column[col="3"] {
+    width: 25%;
+}
+
+.Column[col="4"] {
+    width: 33.33%;
+}
+
+.Column[col="5"] {
+    width: 41.66%;
+}
+
+.Column[col="6"] {
+    width: 50%;
+}
+
+.Column[col="7"] {
+    width: 58.33%;
+}
+
+.Column[col="8"] {
+    width: 66.66%;
+}
+
+.Column[col="9"] {
+    width: 75%;
+}
+
+.Column[col="10"] {
+    width: 83.33%;
+}
+
+.Column[col="11"] {
+    width: 91.66%;
+}
+
+.Column[col="12"] {
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+.Header {
+    font-family: var(--font-hello);
+    font-weight: bold;
+    color: var(--text-header);
+    font-size: 2.8vmax;
+}
